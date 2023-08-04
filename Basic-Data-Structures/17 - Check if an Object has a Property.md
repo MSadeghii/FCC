@@ -50,6 +50,16 @@ console.log(isEveryoneHere(users));
 
 Using hasOwnProperty():
 
+# other solution
+function isEveryoneHere(obj) {
+  // change code below this line
+  return 'Alan' in obj && 'Jeff' in obj && 'Sarah' in obj && 'Ryan' in obj;
+  // change code above this line
+}
+
+
+
+
 ```javascript
 function isEveryoneHere(obj) {
   // change code below this line
